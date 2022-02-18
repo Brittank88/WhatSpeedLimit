@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "wsl",
+  "version": "${version}",
+  "name": "WhatSpeedLimit",
+  "description": "Increases speed caps for players, elytra flight and vehicles to MAX_VALUE.",
+  "authors": ["Brittank88"],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/WSL/icon.png",
+  "environment": "*",
+  "entrypoints": { "main": ["com.brittank88.wsl.WSL"] },
+  "mixins": ["WSL.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.13.1",
+    "fabric": "*",
+    "minecraft": "1.18.1"
+  }
+}
